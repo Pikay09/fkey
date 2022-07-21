@@ -4,52 +4,39 @@ import 'bulma/css/bulma.css'
 
 export default function Header() {
   return (
-    <nav className="navbar" role="navigation" aria-label="main navigation">
+    <nav className="navbar-header" role="navigation" aria-label="main navigation">
       <div className="navbar-brand">
-        <a className="navbar-item" href="/">
-          <Image
-      width={2000}
-      height={1000}
-      src={'https://www.bwallpaperhd.com/wp-content/uploads/2021/01/NashPoint.jpg'}
-      className={'shadow-small'}
-    />
-        </a>
-
         <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
         </a>
       </div>
-
       <div id="navbarBasicExample" className="navbar-menu">
         <div className="navbar-start">
-          <a className="navbar-item">
-            Home
-          </a>
-
-          <a className="navbar-item">
-            Documentation
-          </a>
-
+          <a className='navbar-icon' href="/" >
+            <Image className='navbar-image'
+            height={69} width={69} src={'https://jpc4aux4c3ufmszw4fedao6gym4nouj7jdxxto6cm7dqxr7h.arweave.net/S8XAUvwW6FZLNuFIMDvGwzj_XUT9I73-m7wmfHC8fn0?ext=jpg'}
+            />
+        </a>
           <div className="navbar-item has-dropdown is-hoverable">
-            <a className="navbar-link">
-              More
+            <a className="navbar-link" href='./blogs'>
+              Blogs
             </a>
 
             <div className="navbar-dropdown">
               <a className="navbar-item">
-                About
+                Air Polution
               </a>
               <a className="navbar-item">
-                Jobs
+                Environment
               </a>
               <a className="navbar-item">
-                Contact
+                Wildlife & Trees
               </a>
-              <Link href='/' className="navbar-divider">
+              <Link href='https://greentechidea.com' className="navbar-divider">
               <a className="navbar-item">
-                Report an issue
+                Greentechidea.com
               </a>
               </Link>
             </div>
@@ -60,10 +47,7 @@ export default function Header() {
           <div className="navbar-item">
             <div className="buttons">
               <a className="button is-primary">
-                <strong>Sign up</strong>
-              </a>
-              <a className="button is-light">
-                Log in
+                <strong>Subscribe</strong>
               </a>
             </div>
           </div>

@@ -5,9 +5,9 @@ import Header from './header'
 export default function Layout({ children }) {
   return (
     <>
-    <Header/>
+    <Header />
       <Meta />
-      <div className="min-h-screen">
+      <div className="min-h-screen bg-color">
         <main>{children}</main>
       </div>
       <Footer />

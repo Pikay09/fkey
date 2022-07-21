@@ -13,6 +13,7 @@ module.exports = {
       'secure.gravatar.com',
       'www.bwallpaperhd.com',
       'i0.wp.com',
+      'jpc4aux4c3ufmszw4fedao6gym4nouj7jdxxto6cm7dqxr7h.arweave.net',
     ],
   },
 }

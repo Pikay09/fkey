@@ -105,5 +105,34 @@
 
 
 .test {
-  color: aqua;
+  color: rgb(2, 99, 99);
+  font-weight: 500;
+}
+
+.navbar-icon {
+  padding: 20px;
+  min-height: 69px;
+  width: auto;
+}
+
+.navbar-image {
+  border-radius: 27px;
+}
+
+.navbar-header {
+  background: linear-gradient(69deg, rgba(0, 169, 175, 0.9), rgba(194, 108, 190, 0.9));
+  justify-content: center;
+  min-height: 2.7rem;
+  position: relative;
+}
+
+.fkey-style {
+  margin-top: -240px;
+    padding-bottom: 360px;
+    padding-top: 69px;
+    padding-left: 69px;
+}
+
+.bg-color {
+  background-color: #007dc814;
 }
