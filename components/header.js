@@ -20,7 +20,7 @@ export default function Header() {
             />
         </a>
           <div className="navbar-item has-dropdown is-hoverable">
-            <a className="navbar-link" href='./blogs'>
+            <a className="navbar-link" href='/blogs'>
               Blogs
             </a>
 
