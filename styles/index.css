@@ -128,9 +128,10 @@
 
 .fkey-style {
   margin-top: -240px;
-    padding-bottom: 360px;
-    padding-top: 69px;
-    padding-left: 69px;
+  padding-bottom: 360px;
+  padding-top: 69px;
+  padding-left: 69px;
+  margin-left: 69px;
 }
 
 .bg-color {
