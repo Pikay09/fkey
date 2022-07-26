@@ -39,16 +39,9 @@ export default function Header() {
                 Greentechidea.com
               </a>
               </Link>
-              <Link href='https://hookq.com' className="navbar-divider">
-              <a className="navbar-item">
-                HookQ Marketplace
-              </a>
-              </Link>
-              
             </div>
           </div>
         </div>
-
         <div className="navbar-end">
           <div className="navbar-item">
             <div className="buttons">
