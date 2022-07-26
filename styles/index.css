@@ -107,6 +107,7 @@
 .test {
   color: rgb(2, 99, 99);
   font-weight: 500;
+  margin: 20px;
 }
 
 .navbar-icon {
@@ -130,10 +131,39 @@
   margin-top: -240px;
   padding-bottom: 360px;
   padding-top: 69px;
-  padding-left: 69px;
-  margin-left: 69px;
 }
 
 .bg-color {
   background-color: #007dc814;
+}
+
+
+.new-styles {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 80vw;
+    margin: 0 auto;
+}
+.btn {
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: #a6ac95;
+  /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+  box-shadow: 0 0 20px #eee;
+  border-radius: 27px;
+}
+.btn:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+}
+.btn-3 {
+  background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
 }

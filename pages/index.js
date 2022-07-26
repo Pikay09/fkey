@@ -7,7 +7,7 @@ import Intro from '../components/intro'
 
 export default function Index({ allPosts: { edges }, preview }) {
   const morePosts = edges.slice(1)
-
+  
   return (
     <Layout preview={preview}>
       <Head>
@@ -23,7 +23,7 @@ export default function Index({ allPosts: { edges }, preview }) {
 
 export async function getStaticProps({ preview = false }) {
   const allPosts = await getAllPostsForHome(preview)
-
+  
   return {
     props: { allPosts, preview },
     revalidate: 10,

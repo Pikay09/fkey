@@ -25,13 +25,13 @@ export default function Header() {
             </a>
 
             <div className="navbar-dropdown">
-              <a className="navbar-item">
+              <a className="navbar-item" href='/blogs'>
                 Air Polution
               </a>
-              <a className="navbar-item">
+              <a className="navbar-item" href='/blogs'>
                 Environment
               </a>
-              <a className="navbar-item">
+              <a className="navbar-item" href='/blogs'>
                 Wildlife & Trees
               </a>
               <Link href='https://greentechidea.com' className="navbar-divider">
@@ -39,6 +39,12 @@ export default function Header() {
                 Greentechidea.com
               </a>
               </Link>
+              <Link href='https://hookq.com' className="navbar-divider">
+              <a className="navbar-item">
+                HookQ Marketplace
+              </a>
+              </Link>
+              
             </div>
           </div>
         </div>
@@ -56,3 +62,5 @@ export default function Header() {
     </nav>
   )
 }
+
+
